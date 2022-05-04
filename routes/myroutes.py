@@ -2,7 +2,7 @@ from config import app
 
 @app.get('/home')
 def greetnow():
-    return "i print a massege"
+    return "This is home page...Hi How arey you?"
 
 @app.get('/sample')
 def fun():
